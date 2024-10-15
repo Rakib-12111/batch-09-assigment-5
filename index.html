@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>start bus ticket</title>
+      <!-- tailwind css and daisyUi cdn -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+
+      <!-- tailwind css and daisyUi -->
+      <!-- font awesome cdn -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- font awesome cdn -->
+      <script>
+            tailwind.config = {
+                  theme: {
+                        extend: {
+                              colors: {
+                                    clifford: '#da373d',
+                              },
+                              backgroundImage: {
+                                    busImage: "url('./images/banner.png')"
+                              }
+
+                        }
+                  }
+            }
+      </script>
+</head>
+
+<body>
+      <!-- navbar sectin start here -->
+      <nav class="w-11/12 mx-auto">
+            <div class="navbar bg-base-100">
+                  <div class="navbar-start">
+                        <div class="dropdown">
+                              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                    <i class="fa-solid fa-bars"></i>
+                              </div>
+                              <ul tabindex="0"
+                                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg font-semibold space-y-6">
+                                    <li><a>Home</a></li>
+                                    <li><a>About</a></li>
+                                    <li><a>Destination</a></li>
+                                    <li><a>Search</a></li>
+
+                              </ul>
+                        </div>
+                        <a class="btn btn-ghost text-2xl">P-Ticket</a>
+                  </div>
+                  <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 text-lg font-semibold">
+                              <li><a>Home</a></li>
+                              <li><a>About</a></li>
+                              <li><a>Destination</a></li>
+                              <li><a>Search</a></li>
+
+
+                        </ul>
+                  </div>
+                  <div class="navbar-end">
+                        <a class="btn">Bus <img src="images/bus-icon.png" alt=""></a>
+                  </div>
+            </div>
+      </nav>
+      <!-- navbar sectin end here -->
+
+      <!-- here section stare here -->
+      <div class="w-11/12 mx-auto lg:p-10 relative min-h-screen">
+            <div class="hero  bg-busImage  rounded-xl z-0">
+                  <div class="hero-overlay bg-opacity-10"></div>
+                  <div class="hero-content text-neutral-content text-center">
+                        <div class="mb-40 space-y-10">
+                              <h1 class=" text-5xl font-bold">End-to-End Travel with <br> <span class="text-green-700">
+                                          P Paribahan</span></h1>
+                              <p class="mb-5">
+                                    Yes, you can run unit tests and view the results directly within the app. The
+                                    <br>integrated testing features allow for a streamlined .
+                              </p>
+                              <button class="btn btn-success px-7 font-semibold">Buy Tickets</button>
+                        </div>
+                  </div>
+                  <!-- car section start here -->
+            <div class=" flex justify-center  gap-14 mt-20  ">
+                  <div class="flex  items-center gap-5  px-10 py-10 shadow-2xl rounded-xl">
+                        <div>
+                              <img src="images/people.png" alt="">
+                        </div>
+                        <div>
+                              <p class="text-4xl font-bold">500K+</p>
+                              <p class="text-gray-500">Resistered users</p>
+                        </div>
+                  </div>
+                  <div class="flex  items-center gap-5 px-10 py-10 shadow-2xl rounded-xl">
+                        <div>
+                              <img src="images/people.png" alt="">
+                        </div>
+                        <div>
+                              <p class="text-4xl font-bold">500K+</p>
+                              <p class="text-gray-500">Resistered users</p>
+                        </div>
+                  </div>
+                  <div class="flex  items-center gap-5  px-10 py-10 shadow-2xl rounded-xl">
+                        <div>
+                              <img src="images/people.png" alt="">
+                        </div>
+                        <div>
+                              <p class="text-4xl font-bold">500K+</p>
+                              <p class="text-gray-500">Resistered users</p>
+                        </div>
+                  </div>
+            </div>
+            <!-- car section end here -->
+            </div>
+
+            
+      </div>
+      <!-- here section end here -->
+
+</body>
+
+</html>
+
